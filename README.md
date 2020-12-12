@@ -22,16 +22,18 @@ As I try to improve my ability I am looking for tasks that catch my attention. I
 The data I've chosen is the Caribou Location Tracking that contains tracking data of 260 woodland caribou from British Columbia, Canada between 1988 and 2016. 
 
 ## 3. File Descriptions
-I have just the Caribou jupyter notebook so far. Will update and comment it as time passes. Apologies if you reach this beforehand. 
+Three python files:
+
+CaribouLocation.py : contains main file that reads in data and calculated distance
+haversine.py : contains function gcd (great circle distance) for calculating distance between to gps points in radians
+row_calculate : contains function to cycle through each animal_id in dataframe and calculate the distance travelled by each
 
 ## 4. Results
 Will fill this in when I find some :) 
 
 ## 5. Issues
-After getting the distance calculation running in an efficient manner I now need to split the data into its individual animals so as not to overlap the distance calc.
 
-If you fancy a gander at it, fair warning its a mine field.
-
+None (WooHoo!(for the moment))
 
 ## 6. Licences
 I have yet to write this up fully but in the mean time you fancy a gander at the dataset itself you will find it on kaggle [here](https://www.kaggle.com/jessemostipak/caribou-location-tracking?select=locations.csv) along with documentation, licences etc.
